@@ -17,17 +17,17 @@ namespace GameZakroySector
             this.dices = dices;
         }
         
-        public bool CanClose()
+        public bool CanClose() 
         {
             for (int i = 0; i < 8; i++)
             {
-                if (player.sectors.values[i])
+                if (player.sectors.values[i]) 
                     continue;
-                for (int j = i + 1; j < 9; j++)
+                for (int j = i + 1; j < 9; j++) 
                 {
-                    if (player.sectors.values[j])
+                    if (player.sectors.values[j]) 
                         continue;
-                    if (i + j + 2 == dices.Sum())
+                    if (i + j + 2 == dices.Sum()) 
                         return true;
                 }
             }
@@ -36,13 +36,13 @@ namespace GameZakroySector
 
         public int CountPenalty()
         {
-            int s = 0;
+            int sum = 0;
             for (int i = 0; i < 9; i++)
             {
-                if (!player.sectors.values[i])
-                    s += i + 1;
+                if (!player.sectors.values[i]) 
+                    sum += i + 1;
             }
-            player.SetPenalties(s);
+            player.SetPenalties(sum); 
             return player.penalties;
         }
     }

@@ -15,11 +15,11 @@ namespace GameZakroySector
         public FormResults(Game game, int rounds)
         {
             InitializeComponent();
-            listView1.Columns.Add("Имя", 50, HorizontalAlignment.Left);
+            listView1.Columns.Add("Имя", 150, HorizontalAlignment.Left);
             listView1.Columns.Add("Штраф", -2, HorizontalAlignment.Left);
 
             Dictionary<string, int> d = game.rounds.Last().score;
-            d = d.OrderBy(x => x.Value).ToDictionary(a => a.Key, b => b.Value);
+            
             foreach (string name in d.Keys)
             {
                 listView1.Items.Add(new ListViewItem(new string[] { name, d[name].ToString() }));

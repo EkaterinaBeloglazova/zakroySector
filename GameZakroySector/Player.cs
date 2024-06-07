@@ -9,9 +9,9 @@ namespace GameZakroySector
     public class Player
     {
         public string name;
-        public int penalties;
+        public int penalties; 
         public Sectors sectors;
-        public int value;
+        public int value; 
 
         public Player(string name)
         {

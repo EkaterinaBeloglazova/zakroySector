@@ -19,23 +19,12 @@ namespace GameZakroySector
             total_score = new Dictionary<string, int>();
         }
 
-        public void CountTotalScore()
-        {
-            foreach (Player player in players)
-                total_score[player.name] = rounds.Sum(x => x.score[player.name]);
-        }
-
         public void CreatePlayer(string name)
         {
             players.Add(new Player(name));
         }
 
-        public void CreateRound() 
-        {
-            rounds.Add(new Round());
-        }
-
-        public int CastLot(int player)
+        public int CastLot(int player) 
         {
             Random rand = new Random();
             int res = rand.Next(1, 7);
@@ -45,7 +34,19 @@ namespace GameZakroySector
 
         public void OrderPlayers()
         {
-            players = players.OrderByDescending(x => x.value).ToList();
+            players = players.OrderByDescending(x => x.value).ToList(); 
+        }
+
+        public void CreateRound()
+        {
+            rounds.Add(new Round());
+        }
+
+        public void CountTotalScore() 
+        {
+            foreach (Player player in players)
+                total_score[player.name] = rounds.Sum(x => x.score[player.name]);
+            total_score = total_score.OrderBy(x => x.Value).ToDictionary(a => a.Key, b => b.Value);
         }
     }
 }

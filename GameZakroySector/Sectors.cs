@@ -22,7 +22,7 @@ namespace GameZakroySector
         {
             values[sector1 - 1] = true;
             values[sector2 - 1] = true;
-            can_use_one_dice = values[6] && values[7] && values[8];
+            can_use_one_dice = values[6] || values[7] || values[8];
         }
     }
 }
