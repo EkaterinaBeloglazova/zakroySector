@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\GameZakroySector\bin\Debug\GameZakroySector.exe.config
+C:\Users\user\source\repos\GameZakroySector\bin\Debug\GameZakroySector.exe
+C:\Users\user\source\repos\GameZakroySector\bin\Debug\GameZakroySector.pdb
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.FormStart.resources
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.Properties.Resources.resources
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.csproj.GenerateResource.cache
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.exe
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.pdb
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.FormInputRounds.resources
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.FormGame.resources
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.FormResults.resources
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.FormCastLot.resources
+C:\Users\user\source\repos\GameZakroySector\obj\Debug\GameZakroySector.FormCastRes.resources
